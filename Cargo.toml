@@ -1,0 +1,12 @@
+[package]
+name = "xsd"
+version = "0.1.0"
+edition = "2021"
+description = "Parsing and processing of XML Schema Definition"
+repository = "https://github.com/jondo2010/rust-xsd"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+xml-rs = "0.8.19"
+yaserde = { version = "0.8.0", features = ["yaserde_derive"] }
+yaserde_derive = "0.8.0"
