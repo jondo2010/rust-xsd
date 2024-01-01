@@ -8,5 +8,5 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 xml-rs = "0.8.19"
-yaserde = { version = "0.8.0", features = ["yaserde_derive"] }
+yaserde = { version = "0.9.1", features = ["yaserde_derive"] }
 yaserde_derive = "0.8.0"

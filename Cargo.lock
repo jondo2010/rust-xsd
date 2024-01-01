@@ -61,18 +61,18 @@ version = "0.1.0"
 dependencies = [
  "xml-rs",
  "yaserde",
- "yaserde_derive",
+ "yaserde_derive 0.8.0",
 ]
 
 [[package]]
 name = "yaserde"
-version = "0.8.0"
+version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4bf52af554a50b866aaad63d7eabd6fca298db3dfe49afd50b7ba5a33dfa0582"
+checksum = "8eacf1ee5200ff7a579da4e0ad92509246559956fdcfc7c4f72de72341517d6f"
 dependencies = [
  "log",
  "xml-rs",
- "yaserde_derive",
+ "yaserde_derive 0.9.1",
 ]
 
 [[package]]
@@ -80,6 +80,20 @@ name = "yaserde_derive"
 version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ab8bd5c76eebb8380b26833d30abddbdd885b00dd06178412e0d51d5bfc221f"
+dependencies = [
+ "heck",
+ "log",
+ "proc-macro2",
+ "quote",
+ "syn",
+ "xml-rs",
+]
+
+[[package]]
+name = "yaserde_derive"
+version = "0.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "927c2fdfa0dd98742306563a0459880740c03166fc95615b2592d0a330ba97d0"
 dependencies = [
  "heck",
  "log",
